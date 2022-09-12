@@ -42,7 +42,6 @@ function working_directory_part() {
     local content_format="%{$FG[255]%}"
     local prefix=""
     local content="%2d"
-    # local content="%~"
 
     if [[ $(pwd | cut -d\/ -f 4) != "" ]]; then
         local prefix="...${CLEAR}/"
