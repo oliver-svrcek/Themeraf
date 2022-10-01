@@ -3,7 +3,7 @@
 
 This is my own Oh My Zsh theme.
 
-![Image 1)](https://media.cleanshot.cloud/media/15624/5wXHoudql1vwmw0LxnZmEGtPkWBBdAuo8T5YkqhM.jpeg?Expires=1664594583&Signature=V4iDh5NYjmmr3565TUPxZXlQu4P3uHGrgQte356l6BbyLes8ROdFFPpHIKJeQiAaxpBh8Z9ggabEnX6qrxpsk27yrqv-6w7AcFiipr0x9AG0jhXYDVqt2GTqaII-ZOt340e6LTDJpeRofxz0sRYGa8dN2q30gns1AwDdHVliE~S96pid6HOckZW2526ClCY6POsPUfjO88GDLcEZJ3Fr7ygfbylScLpFAUUQDaTjLCuiaVxxHkkU6TgF66H8T-qL-icMro73-oEw3vlQ-PL4BbyTxaUB5ZO5tMpi-hiSv1YANXWZYt785d0aKJT537drrI8V4Zq9TG2kDKGlbI~ylA__&Key-Pair-Id=K269JMAT9ZF4GZ)
+![Image 1)](https://media.cleanshot.cloud/media/15624/PXEYsDip5XmPVc1zdLKchBIgtcRXLOwO2z7yDYfw.jpeg?Expires=1664653564&Signature=SH2HltrO~QQj7V-Co2uGX9Vd04Mcc04sC3yK9LAx4sJ0shuuKaJ6m8T8aMwaUmsFNiNypUFfd3cGzuvRKMFwn1YTkVmGakEK4Wg2hAvKTHF7Lv6GM1YbSwlQJ6NYDaKxryPdbiCAKQH9GzKpSfYekN2jGe-tDs90xANiW8yWFh3skVEfDfhxlUW0CdiPVQ2wAqXMgWOPUEuaQBestD47-1BBjCbJuqqcV78m56ChDI97NA6F5IfpbCzQ~IoZeAwp-H3KXyY8lDi5QapYhTEVqYQeBalUi67F1QE5np1DRv46K9bI6yR9S4niKu8TW24t4WG9Z-DeyiOPCxr1TNJVbA__&Key-Pair-Id=K269JMAT9ZF4GZ)
 
 It shows username, last two directories in working directory path, git status, timestamp, last exit status and also name of active virtual environment.
 
