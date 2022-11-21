@@ -3,7 +3,7 @@
 
 This is my own Oh My Zsh theme.
 
-<img width="922" alt="Screenshot_1" src="https://user-images.githubusercontent.com/75705745/193412985-337bd4d3-0b62-4668-b2af-df6fead71084.png">
+<img width="922" alt="CleanShot 2022-11-21 at 19 46 56@2x" src="https://user-images.githubusercontent.com/75705745/203135486-7589d963-bf54-4ca3-918a-c88e84af0166.png">
 
 It shows the username, last two directories in the working directory path, git status, timestamp, last exit status, and also the name of the active virtual environment.
 
