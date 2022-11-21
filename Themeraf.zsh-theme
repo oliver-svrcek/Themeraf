@@ -1,7 +1,7 @@
 # Themeraf theme
 # by Oliver Svrcek
 
-SEPARATOR="%{$FG[235]%} • "
+SEPARATOR="%{$FG[235]%} · "
 CLEAR="%{$reset_color%}"
 
 ZSH_THEME_GIT_PROMPT_PREFIX="${SEPARATOR}${CLEAR}"
