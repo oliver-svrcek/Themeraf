@@ -26,8 +26,8 @@ function virtual_enviroment_part() {
 
 function start_part() {
     local format="%{$FG[255]%}"
-    local end_content="┍ "
-    echo "${format}${start_content}${CLEAR}${format}${end_content}${CLEAR}$(virtual_enviroment_part)${CLEAR}"
+    local content="┍ "
+    echo "${format}${content}${CLEAR}$(virtual_enviroment_part)${CLEAR}"
 }
 
 function username_part() {
@@ -70,7 +70,7 @@ function end_part() {
 
 function rng_easter_egg_part() {
     if [ $(seq 1000 | sort -R | head -1) -eq 420 ]; then
-        echo "42 72 75 68 ━ "
+        echo "(42 72 75 68) "
     fi
 }
 
