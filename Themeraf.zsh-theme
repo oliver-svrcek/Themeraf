@@ -6,14 +6,10 @@ CLEAR="%{$reset_color%}"
 
 ZSH_THEME_GIT_PROMPT_PREFIX="${SEPARATOR}${CLEAR}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="${CLEAR}"
-# ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[160]%} ✘"
-# ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[040]%} ✔"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[160]%} ●"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[040]%} ●"
 
 export VIRTUAL_ENV_DISABLE_PROMPT=1
-# ZSH_THEME_VIRTUALENV_PREFIX="%{$FG[255]%}"
-# ZSH_THEME_VIRTUALENV_SUFFIX="${CLEAR}"
 
 local git_info='$(git_prompt_info)'
 local virtualenv_info='$(virtual_enviroment_part)'
@@ -30,8 +26,7 @@ function virtual_enviroment_part() {
 
 function start_part() {
     local format="%{$FG[255]%}"
-    local start_content="╭"
-    local end_content="╼ "
+    local end_content="┍ "
     echo "${format}${start_content}${CLEAR}${format}${end_content}${CLEAR}$(virtual_enviroment_part)${CLEAR}"
 }
 
@@ -46,7 +41,6 @@ function working_directory_part() {
     local content_format="%{$FG[255]%}"
     local prefix=""
     local content="%2d"
-    # local content="%~"
 
     if [[ $(pwd | cut -d\/ -f 4) != "" ]]; then
         local prefix="...${CLEAR}/"
@@ -61,13 +55,6 @@ function time_part() {
     echo "${SEPARATOR}${CLEAR}${format}${content}${CLEAR}"
 }
 
-#function exit_status_part_only_error() {
-#    local format="%{$FG[160]%}"
-#    local sep="%(?..${SEPARATOR}${CLEAR})"
-#    local content="%(?..%?)"
-#    echo "${sep}${format}${content}${CLEAR}"
-#}
-
 function exit_status_part() {
     local format_zero="%{$FG[255]%}"
     local format_other="%{$FG[214]%}"
@@ -77,13 +64,13 @@ function exit_status_part() {
 
 function end_part() {
     local format="%{$FG[255]%}"
-    local content="╰╼ "
+    local content="┕ "
     echo "${format}${content}${CLEAR}"
 }
 
 function rng_easter_egg_part() {
     if [ $(seq 1000 | sort -R | head -1) -eq 420 ]; then
-        echo "42 72 75 68 ╺─╸ "
+        echo "42 72 75 68 ━ "
     fi
 }
 
